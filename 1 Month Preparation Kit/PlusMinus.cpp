@@ -1,4 +1,5 @@
 void plusMinus(vector<int> arr) {
+    
     double count1=0;
     double count2=0;
     double count3=0;
@@ -24,4 +25,5 @@ void plusMinus(vector<int> arr) {
     cout<<x<<endl;
     cout<<y<<endl;
     cout<<z<<endl;
+    
 }
