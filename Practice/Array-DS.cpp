@@ -1,0 +1,11 @@
+vector<int> reverseArray(vector<int> a) {
+   int temp;
+   int j=a.size()-1;
+   for(int i=0;i<j;i++){
+   temp=a[j];
+   a[j] = a[i];
+   a[i] = temp;
+   --j;
+}
+return a;
+}
